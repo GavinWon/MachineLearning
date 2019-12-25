@@ -41,9 +41,12 @@ plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
 
+# Predicting a new result with Linear Regression
+lin_reg.predict([[6.5]])
 
-## Polynomial Regression
-#
+## Predicting a new result with Polynomial Regression
+lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
+
 ## Importing the libraries
 #import numpy as np
 #import matplotlib.pyplot as plt
