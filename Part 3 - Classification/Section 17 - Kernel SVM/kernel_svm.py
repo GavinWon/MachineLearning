@@ -1,4 +1,4 @@
-# Kernel SVM
+# Kernel SVM with rbf (radial basis function)
 
 # Importing the libraries
 import numpy as np
